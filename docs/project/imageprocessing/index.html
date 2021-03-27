@@ -1,0 +1,1289 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  
+  
+  <meta name="generator" content="Wowchemy 5.0.0-beta.0 for Hugo">
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Nazanin Minaian">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Developed a user interactive notebook within Wolfram Mathematica that can track object deflection, travel velocity, and particle tracking of acquired videography related to IPMC underwater sensor data.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/project/imageprocessing/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="rgb(251, 191, 183)">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono%7CLora:400,700%7CRoboto:400,700&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.css">
+
+  
+
+
+
+
+  
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu835ad7ad16c4928b4b63a348fd887239_17370_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu835ad7ad16c4928b4b63a348fd887239_17370_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="/project/imageprocessing/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@naa_zzz">
+  <meta property="twitter:creator" content="@naa_zzz">
+  
+  <meta property="og:site_name" content="Nazanin Minaian">
+  <meta property="og:url" content="/project/imageprocessing/">
+  <meta property="og:title" content="Computer Vision-based Fluid-Structure Interaction Tracking Software | Nazanin Minaian">
+  <meta property="og:description" content="Developed a user interactive notebook within Wolfram Mathematica that can track object deflection, travel velocity, and particle tracking of acquired videography related to IPMC underwater sensor data."><meta property="og:image" content="/project/imageprocessing/featured.jpg">
+  <meta property="twitter:image" content="/project/imageprocessing/featured.jpg"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-11-25T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2020-11-25T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/project/imageprocessing/"
+  },
+  "headline": "Computer Vision-based Fluid-Structure Interaction Tracking Software",
+  
+  "image": [
+    "/project/imageprocessing/featured.jpg"
+  ],
+  
+  "datePublished": "2020-11-25T00:00:00Z",
+  "dateModified": "2020-11-25T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Nazanin Minaian"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Nazanin Minaian",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/icon_hu835ad7ad16c4928b4b63a348fd887239_17370_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Developed a user interactive notebook within Wolfram Mathematica that can track object deflection, travel velocity, and particle tracking of acquired videography related to IPMC underwater sensor data."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Computer Vision-based Fluid-Structure Interaction Tracking Software | Nazanin Minaian</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  ">
+
+  
+  
+  
+    <script>window.wcDarkLightEnabled = true;</script>
+  
+  
+    <script>const isSiteThemeDark = false;</script>
+  
+  
+  <script src="/js/load-theme.js"></script>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Nazanin Minaian</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Nazanin Minaian</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>Computer Vision-based Fluid-Structure Interaction Tracking Software</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Nov 25, 2020
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://www.kwangjinkim.org/" target="_blank" rel="noopener">
+    <i class="fas fa-microscope mr-1"></i>
+    Visit our Lab Website
+  </a>
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 540px;">
+  <div style="position: relative">
+    <img src="/project/imageprocessing/featured_huff0c7d21ca8509c9a8caaf0a1ffe61fb_5604973_720x0_resize_q75_lanczos.jpg" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Project Scope</p>
+<p>Ionic polymer-metal composites (IPMCs) are a type of electroactive polymer typically used in soft-robotic applications.The unique two-way transduction property of IPMCs allows for both actuation and sensing, which, in conjunction with its ability to be used in aqueous environments, can be used for various underwater applications. For this study, we aim to use the IPMC' s unique sensing capabilities as an underwater flow sensor, capable of measuring the flow field of the surrounding environment. This approach is dependent on signal characterization of the acquired voltage response and the fluid dynamics phenomenon of Kármán vortex streets. The latter requires the sensor to detect the frequency of vortex shedding from either the sensor itself or from an obstructing object positioned before the IPMC sensor. The project was split into three major goals : 1) Capture and track the relative velocity of IPMC sensor using imaging and image process techniques.Confirm this value with our known value, and calculate expected vortex shedding frequency with this velocity.2) Capture and and measure the tip displacement of the IPMC sensor during travel using imaging and image process techniques, and compare to acquired voltage data from the sensor.3) Capture and display shed vortices from the experiment.</p>
+<p>Ionic Polymer-Metal Composites: An Overview</p>
+<p>IPMCs are unique electroactive polymers in that they exhibit both electromechanical (electrical to mechanical) and mechanoelectrical (mechanical to electrical) transduction, like that of piezoelectric materials, and are constructed from flexible polymers that can sustain large deformations and strains . The core structure of an IPMC is an ionomeric-polymer (ionomer), which consists of strong ionic groups attached to a charge-neutral polymer backbone. With this ionomer structure, the IPMC is formed by compositing an electrode material, typically a noble metal (such as platinum, gold, palladium, or silver), onto the surface of a thin ionomer membrane.  This process forms the final material, a combined structure of an ionomer and metal electrodes, forming an ionic polymer-metal composite. The choice of backbone ionomer, electrode material, mobile ion species, solvent, and hydration level all have an immense impact on the behavior and performance of IPMC materials, demonstrating their highly complex nature. Regarding IPMCs as a sensor, induced deformation is believed to cause a redistribution of cations within the porous network due to mobility in the solvent, in addition to the anion-clusters deforming with the material such that the clusters form effective dipoles which induce a detectable signal along the electrodes, often within the millivolt range. The work presented herein will be focused on this aspect of IPMC physics.</p>
+<p>Principles of Flow Sensing</p>
+<p>One of the more prominent uses of IPMC sensors in underwater applications has been in the development of IPMC-based flow sensor devices. There have been two approaches in this endeavor, one of which involves interpreting the characteristic response directly, and the other requiring additional signal processing within the frequency domain.  The former is dependent relating the acquired voltage response directly to the environmental causes of displacement surrounding the IPMC. The figure below is a still-frame of an oscillating IPMC due to a shaker at 10 Hz.</p>
+<p>Experimental Setup
+Equipment
+Experiments were conducted within an 85 gal aquarium with the IPMC sensor mounted to an inverted linear belt slide system (MacronDynamics MSA-M6S) driven by an stepper motor (Applied Motion Products SSM23IP-4EG). The motor software was programmed to run at 200 rps, traveling at 150 mm/rev (300 mm/s). Voltage readings were acquired directly using a Keithley 6510 DAQ. Three cameras were used for three individual applications: velocity, tip deflection, and particle tracking.</p>
+<p>Camera 1: Velocity (Canon EOS Rebel SL1)
+Fixed directly facing the side wall of the aquarium, camera 1 will be capturing the travel of the sensor mount. The camera is fitted with the stock 18-55mm Canon lens. Video was captured at 1080p, 30 fps. The far-side of the aquarium is fitted with a 1 inch grid poster that will be used when determining the calibration factor of the footage. Various light-sources were set behind the background image in order to produce a backlit, silhouette-esq footage of the sensor mount traveling.</p>
+<p>Camera 2: Tip Deflection (OSMO Action)
+Camera 2 was mounted directly to the carriage to travel alongside the sensor, directly observing sensor deformation from an above view. Camera 2 will be used to  relate the dynamic tip displacement of the IPMC to the acquired voltage response. Camera 2 captured high speed footage at 1080p, 240 fps, ideally to capture the nuance in the deformation.</p>
+<p>Camera 3: Particle Tracking (GoPro Hero4 Session)
+Camera 3 was placed at a fixed location on the floor of the aquarium where it was used to capture the life cycle of the shed vortices from the carriage/bluff body. The camera was set to capture footage at 1080p, 30 fps. In addition, to better visualize the vortices, packing foam was shredding into pieces, ultimately functioning as tracking particles which assisted in image processing the flow trends on the surface of the water.</p>
+<p>Implementing Mathematica
+Velocity Tracking
+In this section, Mathematica was implemented to detect the velocity of a discrete binarized section of the sensor carriage mount. The found velocity can then be used in calculating the expected frequency of vortex shedding and can be used to verify the set velocity from the provided linear belt slide software. An assumption is made that the carriage, clamp, and IPMC sensor are traveling as a single body, and thus share the same velocity.  Prior to analysis, the captured experimental video was exported as a series of .png images through an external video editing software, which was then imported into Mathematica in the following cells. The images must be resized due to the large quantity. The spatial calibration factor was determined using the 1&quot; grid background, which is highlighted in the first image shown.</p>
+<p>A mask was applied to isolate a specific region of capture that will be used for simplifying the binarization of the moving carriage. With the mask applied, the series of images were then color separated into CMYK color channels. The yellow channel, which best isolated the color of the clamp, was used to easily identify the moving carriage using a threshold binarization.  The ComponentMeasurements function was then applied to determine the centroid of the binarized component within each frame. The &ldquo;centroids&rdquo; variable was specifically used for velocity measurement, while &ldquo;centroid&rdquo; was used for highlighting the carriage in the tracking animation.</p>
+<p>A list of velocities were then established by determining distance travel in successive frames and then by subsequently dividing the time step and and multiplying by the calibration factor. A &ldquo;0&rdquo; value was appended to the velocity list to account for the carriage exiting the FOV at the final frame. A mean velocity was then calculated by partitioning a stable region of velocities. The results were then plotted using ListLinePlot.</p>
+<p>IPMC Displacement Tracking
+The following section of code is used to track IPMC deformation during travel. Similar to the first portion of code, images of gathered experimental footage were imported and resized for data management. Prior to binarization, a mask was applied to each frame to isolate the region of interest. Due to difficulty in binarization, a specific range of frames were chosen where the binarization was found to be the most stable. During binarization, a Sobel edge detection kernel was applied to increase accuracy of binarization by detecting the edge of the rectangular IPMC. A second mask was then applied to segment the IPMC into four sections for tracking curvature. There was difficulty in binarizing this set of footage due to the reflection of the water and almost near transparency of the IPMC. It may be useful to attempt to make the points of interest more prominent during experimental imaging for better clarity and accuracy during binarization. The ComponentMeasurement feature was then used to determine the centroids of each segmented section of the IPMC during travel.</p>
+<p>Displacement was calculated by determining the distance traveled by the centroid of successive frames. The centroid of each component was then plotted which reveals the effects of curvature, as the furthest points from the clamp have the highest amplitude. This displacement plot was also compared to the voltage response acquired from the IPMC directly using a data acquisition device. These two plots show very similar trends.</p>
+<p>Particle Tracking
+In this section, pseudo-PIV images were obtained to show flow patterns over time at a fixed location. Experimental images were imported and resized for data management. A local adaptive binarize was used in order to identify particles. The experiment setup created limitations in isolating particles during binarization and thus environmental objects are seen in binarized images. This will in turn affect the accuracy of flow pattern analysis. Having particles that are dissimilar to the environment can potentially allow for better tracking and flow pattern analysis.</p>
+<p>An example of partitioning a frame to determine displacements of each section of a single image. An image correlate was used to determine these displacement vectors. Once these displacement vectors were found an animation was made of the binarized images with an overlay of the displacement vectors.</p>
+<p>Final code below for determining the flow field. This code was found in Lecture 23 of ME 695.</p>
+<p>Future Work
+Some improvements to the work presented herein include increasing the quality of imaging during the experimental process. This includes establishing a better lighting system, applying more prominent tracking points, and providing an in-plane measurement tool for more precise distance calibration. In the particle tracking experiment, providing a dark backdrop for better particle observation would allow for ease of image processing. Lastly, using the Hough transform function in Mathematica could improve on the IPMC deformation tracking. An example of this is shown below from a modified MATLAB documentation code regarding Hough transformations.</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/computer-vision/">Computer Vision</a>
+  
+  <a class="badge badge-light" href="/tag/ipmc/">IPMC</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/project/imageprocessing/&amp;text=Computer%20Vision-based%20Fluid-Structure%20Interaction%20Tracking%20Software" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/project/imageprocessing/&amp;t=Computer%20Vision-based%20Fluid-Structure%20Interaction%20Tracking%20Software" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Computer%20Vision-based%20Fluid-Structure%20Interaction%20Tracking%20Software&amp;body=/project/imageprocessing/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/project/imageprocessing/&amp;title=Computer%20Vision-based%20Fluid-Structure%20Interaction%20Tracking%20Software" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Computer%20Vision-based%20Fluid-Structure%20Interaction%20Tracking%20Software%20/project/imageprocessing/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/project/imageprocessing/&amp;title=Computer%20Vision-based%20Fluid-Structure%20Interaction%20Tracking%20Software" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/"><img class="avatar mr-3 avatar-circle" src="/author/nazanin-minaian/avatar_hu8bb16d7ca47a8bf1d4d3eb66414388ca_219181_270x270_fill_q75_lanczos_center.jpg" alt="Nazanin Minaian"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/">Nazanin Minaian</a></h5>
+      <h6 class="card-subtitle">ME Graduate Research Assistant</h6>
+      <p class="card-text">My research interests include electroactive polymers, image processing, bio-inspired robotic designs.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/naa_zzz" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=jHSonusAAAAJ&amp;hl" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/nminaian" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://linkedin.com/in/nazanin-minaian" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/files/cv.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/project/mems/">MEMS-based Flowmeter using an Ionic Polymer-Metal Composite Sensor</a></li>
+      
+      <li><a href="/publication/nasa-poster/">Computer Vision-based Fluid-Structure Interaction Tracking using an Electroactive Polymer (EAP) Sensor</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+    Published with
+    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a>  —
+    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
+    open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/wowchemy.min.d9d80f811e95b4b4f6df1eaaf297b05f.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>
