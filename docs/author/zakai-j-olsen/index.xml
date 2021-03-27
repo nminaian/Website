@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zakai J Olsen | Nazanin Minaian</title>
+    <link>/author/zakai-j-olsen/</link>
+      <atom:link href="/author/zakai-j-olsen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zakai J Olsen</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 07 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu835ad7ad16c4928b4b63a348fd887239_17370_512x512_fill_lanczos_center_2.png</url>
+      <title>Zakai J Olsen</title>
+      <link>/author/zakai-j-olsen/</link>
+    </image>
+    
+    <item>
+      <title>Ionic Polymer-Metal Composite (IPMC) Artificial Muscles in Underwater Environments: Review of Actuation, Sensing, Controls, and Applications to Soft Robotics</title>
+      <link>/publication/springer/</link>
+      <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/springer/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
