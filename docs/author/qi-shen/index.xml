@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Qi Shen | Nazanin Minaian</title>
-    <link>/author/qi-shen/</link>
-      <atom:link href="/author/qi-shen/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nminaian.github.io/Website/author/qi-shen/</link>
+      <atom:link href="https://nminaian.github.io/Website/author/qi-shen/index.xml" rel="self" type="application/rss+xml" />
     <description>Qi Shen</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 02 Aug 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu835ad7ad16c4928b4b63a348fd887239_17370_512x512_fill_lanczos_center_2.png</url>
+      <url>https://nminaian.github.io/Website/images/icon_hu835ad7ad16c4928b4b63a348fd887239_17370_512x512_fill_lanczos_center_2.png</url>
       <title>Qi Shen</title>
-      <link>/author/qi-shen/</link>
+      <link>https://nminaian.github.io/Website/author/qi-shen/</link>
     </image>
     
     <item>
       <title>A robotic multiple-shape-memory ionic polymer–metal composite (IPMC) actuator: modeling approach</title>
-      <link>/publication/qi/</link>
+      <link>https://nminaian.github.io/Website/publication/qi/</link>
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/qi/</guid>
+      <guid>https://nminaian.github.io/Website/publication/qi/</guid>
       <description></description>
     </item>
     

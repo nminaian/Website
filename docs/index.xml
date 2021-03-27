@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nazanin Minaian</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nminaian.github.io/Website/</link>
+      <atom:link href="https://nminaian.github.io/Website/index.xml" rel="self" type="application/rss+xml" />
     <description>Nazanin Minaian</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 22 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu835ad7ad16c4928b4b63a348fd887239_17370_512x512_fill_lanczos_center_2.png</url>
+      <url>https://nminaian.github.io/Website/images/icon_hu835ad7ad16c4928b4b63a348fd887239_17370_512x512_fill_lanczos_center_2.png</url>
       <title>Nazanin Minaian</title>
-      <link>/</link>
+      <link>https://nminaian.github.io/Website/</link>
     </image>
     
     <item>
       <title>Continuing the Investigation of the Sensing Response of Ionic Polymer-Metal Composites: Effects of Geometry and Orientation</title>
-      <link>/publication/spie-2021/</link>
+      <link>https://nminaian.github.io/Website/publication/spie-2021/</link>
       <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/spie-2021/</guid>
+      <guid>https://nminaian.github.io/Website/publication/spie-2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Computer Vision-based Fluid-Structure Interaction Tracking Software</title>
-      <link>/project/imageprocessing/</link>
+      <link>https://nminaian.github.io/Website/project/imageprocessing/</link>
       <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/project/imageprocessing/</guid>
+      <guid>https://nminaian.github.io/Website/project/imageprocessing/</guid>
       <description>&lt;p&gt;Project Scope&lt;/p&gt;
 &lt;p&gt;Ionic polymer-metal composites (IPMCs) are a type of electroactive polymer typically used in soft-robotic applications.The unique two-way transduction property of IPMCs allows for both actuation and sensing, which, in conjunction with its ability to be used in aqueous environments, can be used for various underwater applications. For this study, we aim to use the IPMC&#39; s unique sensing capabilities as an underwater flow sensor, capable of measuring the flow field of the surrounding environment. This approach is dependent on signal characterization of the acquired voltage response and the fluid dynamics phenomenon of Kármán vortex streets. The latter requires the sensor to detect the frequency of vortex shedding from either the sensor itself or from an obstructing object positioned before the IPMC sensor. The project was split into three major goals : 1) Capture and track the relative velocity of IPMC sensor using imaging and image process techniques.Confirm this value with our known value, and calculate expected vortex shedding frequency with this velocity.2) Capture and and measure the tip displacement of the IPMC sensor during travel using imaging and image process techniques, and compare to acquired voltage data from the sensor.3) Capture and display shed vortices from the experiment.&lt;/p&gt;
 &lt;p&gt;Ionic Polymer-Metal Composites: An Overview&lt;/p&gt;
@@ -59,9 +59,9 @@ Some improvements to the work presented herein include increasing the quality of
     
     <item>
       <title>Design of Fuel Cell Powered UNLV Engineering Building</title>
-      <link>/project/sofc/</link>
+      <link>https://nminaian.github.io/Website/project/sofc/</link>
       <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/project/sofc/</guid>
+      <guid>https://nminaian.github.io/Website/project/sofc/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -72,9 +72,9 @@ Some improvements to the work presented herein include increasing the quality of
     
     <item>
       <title>MEMS-based Flowmeter using an Ionic Polymer-Metal Composite Sensor</title>
-      <link>/project/mems/</link>
+      <link>https://nminaian.github.io/Website/project/mems/</link>
       <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/project/mems/</guid>
+      <guid>https://nminaian.github.io/Website/project/mems/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -85,41 +85,41 @@ Some improvements to the work presented herein include increasing the quality of
     
     <item>
       <title>Computer Vision-based Fluid-Structure Interaction Tracking using an Electroactive Polymer (EAP) Sensor</title>
-      <link>/publication/nasa-poster/</link>
+      <link>https://nminaian.github.io/Website/publication/nasa-poster/</link>
       <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/nasa-poster/</guid>
+      <guid>https://nminaian.github.io/Website/publication/nasa-poster/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ionic Polymer-Metal Composite (IPMC) Artificial Muscles in Underwater Environments: Review of Actuation, Sensing, Controls, and Applications to Soft Robotics</title>
-      <link>/publication/springer/</link>
+      <link>https://nminaian.github.io/Website/publication/springer/</link>
       <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/springer/</guid>
+      <guid>https://nminaian.github.io/Website/publication/springer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Spiral shape energy harvester with silicone finger bending model using PVDF</title>
-      <link>/publication/pvdf/</link>
+      <link>https://nminaian.github.io/Website/publication/pvdf/</link>
       <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/pvdf/</guid>
+      <guid>https://nminaian.github.io/Website/publication/pvdf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A feasibility study in the use of ionic polymer-metal composites in rectangular cantilever form as flow sensor devices</title>
-      <link>/publication/spie-2019/</link>
+      <link>https://nminaian.github.io/Website/publication/spie-2019/</link>
       <pubDate>Thu, 07 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/spie-2019/</guid>
+      <guid>https://nminaian.github.io/Website/publication/spie-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Laminar Flow Faucet-less Smart Sink</title>
-      <link>/project/sink/</link>
+      <link>https://nminaian.github.io/Website/project/sink/</link>
       <pubDate>Sun, 25 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/project/sink/</guid>
+      <guid>https://nminaian.github.io/Website/project/sink/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -130,9 +130,9 @@ Some improvements to the work presented herein include increasing the quality of
     
     <item>
       <title>A robotic multiple-shape-memory ionic polymer–metal composite (IPMC) actuator: modeling approach</title>
-      <link>/publication/qi/</link>
+      <link>https://nminaian.github.io/Website/publication/qi/</link>
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/qi/</guid>
+      <guid>https://nminaian.github.io/Website/publication/qi/</guid>
       <description></description>
     </item>
     

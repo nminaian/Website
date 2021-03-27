@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Youngsu Cha | Nazanin Minaian</title>
-    <link>/author/youngsu-cha/</link>
-      <atom:link href="/author/youngsu-cha/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nminaian.github.io/Website/author/youngsu-cha/</link>
+      <atom:link href="https://nminaian.github.io/Website/author/youngsu-cha/index.xml" rel="self" type="application/rss+xml" />
     <description>Youngsu Cha</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 07 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu835ad7ad16c4928b4b63a348fd887239_17370_512x512_fill_lanczos_center_2.png</url>
+      <url>https://nminaian.github.io/Website/images/icon_hu835ad7ad16c4928b4b63a348fd887239_17370_512x512_fill_lanczos_center_2.png</url>
       <title>Youngsu Cha</title>
-      <link>/author/youngsu-cha/</link>
+      <link>https://nminaian.github.io/Website/author/youngsu-cha/</link>
     </image>
     
     <item>
       <title>Spiral shape energy harvester with silicone finger bending model using PVDF</title>
-      <link>/publication/pvdf/</link>
+      <link>https://nminaian.github.io/Website/publication/pvdf/</link>
       <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/pvdf/</guid>
+      <guid>https://nminaian.github.io/Website/publication/pvdf/</guid>
       <description></description>
     </item>
     

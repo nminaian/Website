@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Justin Neubauer | Nazanin Minaian</title>
-    <link>/author/justin-neubauer/</link>
-      <atom:link href="/author/justin-neubauer/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nminaian.github.io/Website/author/justin-neubauer/</link>
+      <atom:link href="https://nminaian.github.io/Website/author/justin-neubauer/index.xml" rel="self" type="application/rss+xml" />
     <description>Justin Neubauer</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 07 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu835ad7ad16c4928b4b63a348fd887239_17370_512x512_fill_lanczos_center_2.png</url>
+      <url>https://nminaian.github.io/Website/images/icon_hu835ad7ad16c4928b4b63a348fd887239_17370_512x512_fill_lanczos_center_2.png</url>
       <title>Justin Neubauer</title>
-      <link>/author/justin-neubauer/</link>
+      <link>https://nminaian.github.io/Website/author/justin-neubauer/</link>
     </image>
     
     <item>
       <title>Computer Vision-based Fluid-Structure Interaction Tracking using an Electroactive Polymer (EAP) Sensor</title>
-      <link>/publication/nasa-poster/</link>
+      <link>https://nminaian.github.io/Website/publication/nasa-poster/</link>
       <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/nasa-poster/</guid>
+      <guid>https://nminaian.github.io/Website/publication/nasa-poster/</guid>
       <description></description>
     </item>
     

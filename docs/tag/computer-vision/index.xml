@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Computer Vision | Nazanin Minaian</title>
-    <link>/tag/computer-vision/</link>
-      <atom:link href="/tag/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nminaian.github.io/Website/tag/computer-vision/</link>
+      <atom:link href="https://nminaian.github.io/Website/tag/computer-vision/index.xml" rel="self" type="application/rss+xml" />
     <description>Computer Vision</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 25 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu835ad7ad16c4928b4b63a348fd887239_17370_512x512_fill_lanczos_center_2.png</url>
+      <url>https://nminaian.github.io/Website/images/icon_hu835ad7ad16c4928b4b63a348fd887239_17370_512x512_fill_lanczos_center_2.png</url>
       <title>Computer Vision</title>
-      <link>/tag/computer-vision/</link>
+      <link>https://nminaian.github.io/Website/tag/computer-vision/</link>
     </image>
     
     <item>
       <title>Computer Vision-based Fluid-Structure Interaction Tracking Software</title>
-      <link>/project/imageprocessing/</link>
+      <link>https://nminaian.github.io/Website/project/imageprocessing/</link>
       <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/project/imageprocessing/</guid>
+      <guid>https://nminaian.github.io/Website/project/imageprocessing/</guid>
       <description>&lt;p&gt;Project Scope&lt;/p&gt;
 &lt;p&gt;Ionic polymer-metal composites (IPMCs) are a type of electroactive polymer typically used in soft-robotic applications.The unique two-way transduction property of IPMCs allows for both actuation and sensing, which, in conjunction with its ability to be used in aqueous environments, can be used for various underwater applications. For this study, we aim to use the IPMC&#39; s unique sensing capabilities as an underwater flow sensor, capable of measuring the flow field of the surrounding environment. This approach is dependent on signal characterization of the acquired voltage response and the fluid dynamics phenomenon of Kármán vortex streets. The latter requires the sensor to detect the frequency of vortex shedding from either the sensor itself or from an obstructing object positioned before the IPMC sensor. The project was split into three major goals : 1) Capture and track the relative velocity of IPMC sensor using imaging and image process techniques.Confirm this value with our known value, and calculate expected vortex shedding frequency with this velocity.2) Capture and and measure the tip displacement of the IPMC sensor during travel using imaging and image process techniques, and compare to acquired voltage data from the sensor.3) Capture and display shed vortices from the experiment.&lt;/p&gt;
 &lt;p&gt;Ionic Polymer-Metal Composites: An Overview&lt;/p&gt;
