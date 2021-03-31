@@ -56,6 +56,7 @@ subtitle = ""
 +++
 
 ##
+
 {{% callout note %}}
-This site is a work in progress.
+This site is currently under construction.
 {{% /callout %}}
