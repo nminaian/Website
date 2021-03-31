@@ -58,5 +58,5 @@ subtitle = ""
 ##
 
 {{% callout note %}}
-This site is currently under construction.
+This site is currently under construction - best viewed in Dark Mode.
 {{% /callout %}}
