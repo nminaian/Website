@@ -53,6 +53,11 @@
   </url>
   
   <url>
+    <loc>https://nminaian.github.io/Website/tag/cad/</loc>
+    <lastmod>2020-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nminaian.github.io/Website/tag/computer-vision/</loc>
     <lastmod>2020-11-25T00:00:00+00:00</lastmod>
   </url>
@@ -63,12 +68,12 @@
   </url>
   
   <url>
-    <loc>https://nminaian.github.io/Website/project/sofc/</loc>
+    <loc>https://nminaian.github.io/Website/tag/comsol/</loc>
     <lastmod>2020-11-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nminaian.github.io/Website/tag/eap/</loc>
+    <loc>https://nminaian.github.io/Website/project/sofc/</loc>
     <lastmod>2020-11-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -88,7 +93,17 @@
   </url>
   
   <url>
+    <loc>https://nminaian.github.io/Website/tag/modeling/</loc>
+    <lastmod>2020-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nminaian.github.io/Website/project/</loc>
+    <lastmod>2020-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nminaian.github.io/Website/tag/sensing/</loc>
     <lastmod>2020-11-25T00:00:00+00:00</lastmod>
   </url>
   

@@ -24,7 +24,7 @@ subtitle = ""
   icon = "cubes"
   icon_pack = "fas"
   name = "Modeling"
-  description = "SolidWorks, COMSOL Multiphyiscs, solidThinking Inspire"  
+  description = "SolidWorks, COMSOL Multiphysics, solidThinking Inspire"  
   
 [[feature]]
   icon = "vial"
@@ -36,13 +36,13 @@ subtitle = ""
   icon = "camera"
   icon_pack = "fas"
   name = "Imaging"
-  description = "XXX, XXX, XXX"
+  description = "DSLR, PIV, Motion Tracking"
 
 [[feature]]
   icon = "book"
   icon_pack = "fas"
   name = "Technical Writing"
-  description = "Project Reports, Proposals, Posters, Journal Papres, Book Chapters, Paper Editing, Presentations"
+  description = "Project Reports, Proposals, Posters, Presentations, Publications"
 
 [[feature]]
   icon = "window-restore"

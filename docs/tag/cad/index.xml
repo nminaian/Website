@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CAD | Nazanin Minaian</title>
+    <link>https://nminaian.github.io/Website/tag/cad/</link>
+      <atom:link href="https://nminaian.github.io/Website/tag/cad/index.xml" rel="self" type="application/rss+xml" />
+    <description>CAD</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 25 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://nminaian.github.io/Website/images/icon_hu835ad7ad16c4928b4b63a348fd887239_17370_512x512_fill_lanczos_center_2.png</url>
+      <title>CAD</title>
+      <link>https://nminaian.github.io/Website/tag/cad/</link>
+    </image>
+    
+    <item>
+      <title>MEMS-based Flowmeter using an Ionic Polymer-Metal Composite Sensor</title>
+      <link>https://nminaian.github.io/Website/project/mems/</link>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://nminaian.github.io/Website/project/mems/</guid>
+      <description>&lt;h2 id=&#34;design-concept&#34;&gt;Design Concept&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The proposed MEMS-based vortex flowmeter can be used in small- scale applications that necessitates devices with low power requirements.&lt;/li&gt;
+&lt;li&gt;Ideally, the goal is to construct a small flow meter device (10 mm diameter) with the principle sensor being comprised of the electroactive polymer, an ionic polymer metal composite. IPMCs demonstrate sensing capabilities with heightened sensitivity.&lt;/li&gt;
+&lt;li&gt;A successful attempt at this scale could demonstrate the feasibility of using this type of flow sensor in even smaller scale devices.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mechanism-of-typical-vortex-flow-meter&#34;&gt;Mechanism of Typical Vortex Flow Meter&lt;/h2&gt;
+&lt;p&gt;A standard vortex flow meter operates based on the fluid phenomenon known as Karman Vortex Streets.
+When flow is disrupted by an obstruction object or bluff body, vortices are shed from the object which is correlated to the following relationship known as the Strouhal number:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://latex.codecogs.com/svg.latex?St%20=%20fL/U&#34; alt=&#34;Equation&#34;&gt;&lt;/p&gt;
+&lt;p&gt;where, 𝑓 is the frequency of vortex shedding, L is the characteristic length or hydraulic diameter of the object, and U is the flow velocity.&lt;/p&gt;
+&lt;p&gt;This relationship can then be related to Reynolds number where under a large Reynolds number range, Strouhal number is approximately 0.20.&lt;/p&gt;
+&lt;p&gt;A sensor can thus detect the frequency of the shed vortices, which is directly proportional to the flow velocity.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/MEMS_Images/MEMS1.PNG&#34; alt=&#34;MEMS&#34;&gt;
+&lt;img src=&#34;https://nminaian.github.io/Website/static/media/MEMS_Images/MEMS2.PNG&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
+&lt;p&gt;From Shanghai Yinuo Instrument Co. (Left) Cross section illustration of flow disruption in a pipe, generating vortices. (Right) Typical large vortex flow meter device.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/MEMS_Images/MEMS3.jpg&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Strouhal Number as a function of Reynolds Number. Image from Thermopedia&lt;/p&gt;
+&lt;h2 id=&#34;advantages-and-disadvantages&#34;&gt;Advantages and Disadvantages&lt;/h2&gt;
+&lt;h3 id=&#34;advantages&#34;&gt;Advantages&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Silent in use&lt;/li&gt;
+&lt;li&gt;No moving parts
+&lt;ul&gt;
+&lt;li&gt;Less degradation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Flexible usage range
+&lt;ul&gt;
+&lt;li&gt;100 &amp;lt; Re &amp;lt; 200,000&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Low Power Requirements&lt;/li&gt;
+&lt;li&gt;IPMC sensitivity can sense mild displacements that will occur from shed vortices&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;disadvantages&#34;&gt;Disadvantages&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Requires analysis within the frequency domain to acquire velocity&lt;/li&gt;
+&lt;li&gt;Flow must be continuous for measurement (no pulsating flow)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;concept-and-prototype-design&#34;&gt;Concept and Prototype Design&lt;/h2&gt;
+&lt;h3 id=&#34;initial-version&#34;&gt;Initial Version&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/MEMS_Images/MEMS4.PNG&#34; alt=&#34;MEMS&#34;&gt;
+&lt;img src=&#34;https://nminaian.github.io/Website/static/media/MEMS_Images/MEMS5.PNG&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;subsequent-and-final-version&#34;&gt;Subsequent and Final Version&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/MEMS_Images/MEMS6.PNG&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Failed and Completed Prints&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/MEMS_Images/MEMS7.PNG&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;physics-model---visualization-and-anticipation-of-vortex-shedding&#34;&gt;Physics Model - Visualization and Anticipation of Vortex Shedding&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A physics-based model was developed in COMSOL Multiphysics.&lt;/li&gt;
+&lt;li&gt;Laminar flow physics was applied to a geometry resembling the cross-sectional area of the flowmeter device.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.gyazo.com/0e91a2d53774171989e874033694cc85.gif&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Water at room temperature was set as the material and the normal inflow velocity was set to 0.07 m/s after an initialization step which was implemented to help the model run&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://latex.codecogs.com/svg.latex?%5Crho_w%20=%20997%20%5Bkg/m%5E3%5D&#34; alt=&#34;Equation&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://latex.codecogs.com/svg.latex?%5Cmu%20=%208.90%20%5Ctimes%2010%5E-4%20%5BPa-s%5D&#34; alt=&#34;Equation&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/MEMS_Images/Step.svg&#34; alt=&#34;Equation&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Using the Reynolds number equation, this puts us at a Reynolds number of about 235.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.gyazo.com/bf9f913d2066575e498155969682bd62.gif&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;experimental-setup&#34;&gt;Experimental Setup&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.gyazo.com/a41b37e0e7597b4f8e675c9631e64772.gif&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A contact piece was designed and soldered to read the IPMC signal.&lt;/li&gt;
+&lt;li&gt;A Masterflex L/S series peristaltic pump was used to control the flow rate of the flowmeter.
+&lt;ul&gt;
+&lt;li&gt;The flow rate was calibrated to the specific hosing used.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://latex.codecogs.com/svg.latex?Q_e=5900%20%5Bmm%5E3/s%5D&#34; alt=&#34;Equation&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://latex.codecogs.com/svg.latex?V_e=0.075%20%5Bm/s%5D&#34; alt=&#34;Equation&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Which results in a Reynolds number of 252, and thus an expected vortex shedding frequency of 4.76&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/MEMS_Images/MEMS8.PNG&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/MEMS_Images/MEMS9.PNG&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We can see the IPMC sensing the flow of the peristaltic pump in the following voltage reading plot.&lt;/li&gt;
+&lt;li&gt;An FFT was performed on 2 of the 3 runs.&lt;/li&gt;
+&lt;li&gt;Interestingly enough, we observe a noticeable frequency peak at around 4.7-5.0 Hz.&lt;/li&gt;
+&lt;li&gt;However, it is important to note, this coincidentally is also the peristaltic pump pulse frequency as well.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/MEMS_Images/MEMS10.PNG&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;conclusionfuture-work&#34;&gt;Conclusion/Future Work&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;More experiments will have to be performed to validate the concept of the this design.&lt;/li&gt;
+&lt;li&gt;Possible improvements:
+&lt;ul&gt;
+&lt;li&gt;A pulse dampener can be implemented into the setup&lt;/li&gt;
+&lt;li&gt;Redesigning the flowmeter
+&lt;ul&gt;
+&lt;li&gt;Better access to main chamber&lt;/li&gt;
+&lt;li&gt;Less clunky contact design&lt;/li&gt;
+&lt;li&gt;Further miniaturization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

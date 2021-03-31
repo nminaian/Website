@@ -100,7 +100,7 @@ address = {street = "4505 S Maryland Pkwy", city = "Las Vegas", region = "NV", p
 coordinates = {latitude = "36.1108743", longitude = "-115.1415303"}
 
 # Directions for visitors to locate you.
-directions = "Office 2### - Please request permission from downstairs help desk to visit 2nd floor."
+directions = "Office 2173 - Please request permission from downstairs help desk to visit 2nd floor."
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.

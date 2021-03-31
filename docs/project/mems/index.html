@@ -760,7 +760,7 @@
   
   <a class="btn btn-outline-primary my-1 mr-1" href="https://www.kwangjinkim.org/" target="_blank" rel="noopener">
     <i class="fas fa-microscope mr-1"></i>
-    Visit our Lab Website
+    AMSL
   </a>
 
 
@@ -782,11 +782,107 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.</p>
-<p>Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.</p>
-<p>Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.</p>
-<p>Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.</p>
-<p>Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.</p>
+      <h2 id="design-concept">Design Concept</h2>
+<ul>
+<li>The proposed MEMS-based vortex flowmeter can be used in small- scale applications that necessitates devices with low power requirements.</li>
+<li>Ideally, the goal is to construct a small flow meter device (10 mm diameter) with the principle sensor being comprised of the electroactive polymer, an ionic polymer metal composite. IPMCs demonstrate sensing capabilities with heightened sensitivity.</li>
+<li>A successful attempt at this scale could demonstrate the feasibility of using this type of flow sensor in even smaller scale devices.</li>
+</ul>
+<h2 id="mechanism-of-typical-vortex-flow-meter">Mechanism of Typical Vortex Flow Meter</h2>
+<p>A standard vortex flow meter operates based on the fluid phenomenon known as Karman Vortex Streets.
+When flow is disrupted by an obstruction object or bluff body, vortices are shed from the object which is correlated to the following relationship known as the Strouhal number:</p>
+<p><img src="https://latex.codecogs.com/svg.latex?St%20=%20fL/U" alt="Equation"></p>
+<p>where, 𝑓 is the frequency of vortex shedding, L is the characteristic length or hydraulic diameter of the object, and U is the flow velocity.</p>
+<p>This relationship can then be related to Reynolds number where under a large Reynolds number range, Strouhal number is approximately 0.20.</p>
+<p>A sensor can thus detect the frequency of the shed vortices, which is directly proportional to the flow velocity.</p>
+<p><img src="/static/media/MEMS_Images/MEMS1.PNG" alt="MEMS">
+<img src="/static/media/MEMS_Images/MEMS2.PNG" alt="MEMS"></p>
+<p>From Shanghai Yinuo Instrument Co. (Left) Cross section illustration of flow disruption in a pipe, generating vortices. (Right) Typical large vortex flow meter device.</p>
+<p><img src="/static/media/MEMS_Images/MEMS3.jpg" alt="MEMS"></p>
+<p>Strouhal Number as a function of Reynolds Number. Image from Thermopedia</p>
+<h2 id="advantages-and-disadvantages">Advantages and Disadvantages</h2>
+<h3 id="advantages">Advantages</h3>
+<ul>
+<li>Silent in use</li>
+<li>No moving parts
+<ul>
+<li>Less degradation</li>
+</ul>
+</li>
+<li>Flexible usage range
+<ul>
+<li>100 &lt; Re &lt; 200,000</li>
+</ul>
+</li>
+<li>Low Power Requirements</li>
+<li>IPMC sensitivity can sense mild displacements that will occur from shed vortices</li>
+</ul>
+<h3 id="disadvantages">Disadvantages</h3>
+<ul>
+<li>Requires analysis within the frequency domain to acquire velocity</li>
+<li>Flow must be continuous for measurement (no pulsating flow)</li>
+</ul>
+<h2 id="concept-and-prototype-design">Concept and Prototype Design</h2>
+<h3 id="initial-version">Initial Version</h3>
+<p><img src="/static/media/MEMS_Images/MEMS4.PNG" alt="MEMS">
+<img src="/static/media/MEMS_Images/MEMS5.PNG" alt="MEMS"></p>
+<h3 id="subsequent-and-final-version">Subsequent and Final Version</h3>
+<p><img src="/static/media/MEMS_Images/MEMS6.PNG" alt="MEMS"></p>
+<p>Failed and Completed Prints</p>
+<p><img src="/static/media/MEMS_Images/MEMS7.PNG" alt="MEMS"></p>
+<h2 id="physics-model---visualization-and-anticipation-of-vortex-shedding">Physics Model - Visualization and Anticipation of Vortex Shedding</h2>
+<ul>
+<li>A physics-based model was developed in COMSOL Multiphysics.</li>
+<li>Laminar flow physics was applied to a geometry resembling the cross-sectional area of the flowmeter device.</li>
+</ul>
+<p><img src="https://i.gyazo.com/0e91a2d53774171989e874033694cc85.gif" alt="MEMS"></p>
+<p>Water at room temperature was set as the material and the normal inflow velocity was set to 0.07 m/s after an initialization step which was implemented to help the model run</p>
+<p><img src="https://latex.codecogs.com/svg.latex?%5Crho_w%20=%20997%20%5Bkg/m%5E3%5D" alt="Equation"></p>
+<p><img src="https://latex.codecogs.com/svg.latex?%5Cmu%20=%208.90%20%5Ctimes%2010%5E-4%20%5BPa-s%5D" alt="Equation"></p>
+<p><img src="/static/media/MEMS_Images/Step.svg" alt="Equation"></p>
+<p>Using the Reynolds number equation, this puts us at a Reynolds number of about 235.</p>
+<p><img src="https://i.gyazo.com/bf9f913d2066575e498155969682bd62.gif" alt="MEMS"></p>
+<h2 id="experimental-setup">Experimental Setup</h2>
+<p><img src="https://i.gyazo.com/a41b37e0e7597b4f8e675c9631e64772.gif" alt="MEMS"></p>
+<ul>
+<li>A contact piece was designed and soldered to read the IPMC signal.</li>
+<li>A Masterflex L/S series peristaltic pump was used to control the flow rate of the flowmeter.
+<ul>
+<li>The flow rate was calibrated to the specific hosing used.</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://latex.codecogs.com/svg.latex?Q_e=5900%20%5Bmm%5E3/s%5D" alt="Equation"></p>
+<p><img src="https://latex.codecogs.com/svg.latex?V_e=0.075%20%5Bm/s%5D" alt="Equation"></p>
+<ul>
+<li>Which results in a Reynolds number of 252, and thus an expected vortex shedding frequency of 4.76</li>
+</ul>
+<p><img src="/static/media/MEMS_Images/MEMS8.PNG" alt="MEMS"></p>
+<h2 id="results">Results</h2>
+<p><img src="/static/media/MEMS_Images/MEMS9.PNG" alt="MEMS"></p>
+<ul>
+<li>We can see the IPMC sensing the flow of the peristaltic pump in the following voltage reading plot.</li>
+<li>An FFT was performed on 2 of the 3 runs.</li>
+<li>Interestingly enough, we observe a noticeable frequency peak at around 4.7-5.0 Hz.</li>
+<li>However, it is important to note, this coincidentally is also the peristaltic pump pulse frequency as well.</li>
+</ul>
+<p><img src="/static/media/MEMS_Images/MEMS10.PNG" alt="MEMS"></p>
+<h2 id="conclusionfuture-work">Conclusion/Future Work</h2>
+<ul>
+<li>More experiments will have to be performed to validate the concept of the this design.</li>
+<li>Possible improvements:
+<ul>
+<li>A pulse dampener can be implemented into the setup</li>
+<li>Redesigning the flowmeter
+<ul>
+<li>Better access to main chamber</li>
+<li>Less clunky contact design</li>
+<li>Further miniaturization</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 
     </div>
 
@@ -801,7 +897,13 @@
   
   <a class="badge badge-light" href="/Website/tag/ipmc/">IPMC</a>
   
-  <a class="badge badge-light" href="/Website/tag/eap/">EAP</a>
+  <a class="badge badge-light" href="/Website/tag/sensing/">Sensing</a>
+  
+  <a class="badge badge-light" href="/Website/tag/comsol/">COMSOL</a>
+  
+  <a class="badge badge-light" href="/Website/tag/modeling/">Modeling</a>
+  
+  <a class="badge badge-light" href="/Website/tag/cad/">CAD</a>
   
 </div>
 
