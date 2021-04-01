@@ -36,23 +36,23 @@
 &lt;h2 id=&#34;experimental-setup&#34;&gt;Experimental Setup&lt;/h2&gt;
 &lt;h3 id=&#34;equipment&#34;&gt;Equipment&lt;/h3&gt;
 &lt;p&gt;Experiments were conducted within an 85 gal aquarium with the IPMC sensor mounted to an inverted linear belt slide system (MacronDynamics MSA-M6S) driven by an stepper motor (Applied Motion Products SSM23IP-4EG). The motor software was programmed to run at 200 rps, traveling at 150 mm/rev (300 mm/s). Voltage readings were acquired directly using a Keithley 6510 DAQ.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/ImageProcessing_Images/Setup.PNG&#34; alt=&#34;IPMC&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/media/ImageProcessing_Images/Setup.PNG&#34; alt=&#34;IPMC&#34;&gt;&lt;/p&gt;
 &lt;h4 id=&#34;camera-configuration&#34;&gt;Camera Configuration&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/ImageProcessing_Images/Config.jpg&#34; alt=&#34;IPMC&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/media/ImageProcessing_Images/Config.jpg&#34; alt=&#34;IPMC&#34;&gt;
 Three cameras were used for three individual applications: velocity, tip deflection, and particle tracking.&lt;/p&gt;
 &lt;h5 id=&#34;camera-1-velocity-canon-eos-rebel-sl1&#34;&gt;Camera 1: Velocity (Canon EOS Rebel SL1)&lt;/h5&gt;
-&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/ImageProcessing_Images/Camera1.jpg&#34; alt=&#34;Camera&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/media/ImageProcessing_Images/Camera1.jpg&#34; alt=&#34;Camera&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Fixed directly facing the side wall of the aquarium, camera 1 will be capturing the travel of the sensor mount. The camera is fitted with the stock 18-55mm Canon lens. Video was captured at 1080p, 30 fps. The far-side of the aquarium is fitted with a 1 inch grid poster that will be used when determining the calibration factor of the footage. Various light-sources were set behind the background image in order to produce a backlit, silhouette-esq footage of the sensor mount traveling.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/ImageProcessing_Images/Camera1_Setup.PNG&#34; alt=&#34;Camera&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/media/ImageProcessing_Images/Camera1_Setup.PNG&#34; alt=&#34;Camera&#34;&gt;&lt;/p&gt;
 &lt;h5 id=&#34;camera-2-tip-deflection-osmo-action&#34;&gt;Camera 2: Tip Deflection (OSMO Action)&lt;/h5&gt;
-&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/ImageProcessing_Images/Camera2.jpg&#34; alt=&#34;Camera&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/media/ImageProcessing_Images/Camera2.jpg&#34; alt=&#34;Camera&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Camera 2 was mounted directly to the carriage to travel alongside the sensor, directly observing sensor deformation from an above view. Camera 2 will be used to  relate the dynamic tip displacement of the IPMC to the acquired voltage response. Camera 2 captured high speed footage at 1080p, 240 fps, ideally to capture the nuance in the deformation.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/ImageProcessing_Images/Camera2_Setup.jpg&#34; alt=&#34;Camera&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/media/ImageProcessing_Images/Camera2_Setup.jpg&#34; alt=&#34;Camera&#34;&gt;&lt;/p&gt;
 &lt;h5 id=&#34;camera-3-particle-tracking-gopro-hero4-session&#34;&gt;Camera 3: Particle Tracking (GoPro Hero4 Session)&lt;/h5&gt;
-&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/ImageProcessing_Images/Camera3.jpg&#34; alt=&#34;Camera&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/media/ImageProcessing_Images/Camera3.jpg&#34; alt=&#34;Camera&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Camera 3 was placed at a fixed location on the floor of the aquarium where it was used to capture the life cycle of the shed vortices from the carriage/bluff body. The camera was set to capture footage at 1080p, 30 fps. In addition, to better visualize the vortices, packing foam was shredding into pieces, ultimately functioning as tracking particles which assisted in image processing the flow trends on the surface of the water.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/ImageProcessing_Images/Camera3_Setup.PNG&#34; alt=&#34;Camera&#34;&gt;
-&lt;img src=&#34;https://nminaian.github.io/Website/static/media/ImageProcessing_Images/PIV.jpg&#34; alt=&#34;Camera&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/media/ImageProcessing_Images/Camera3_Setup.PNG&#34; alt=&#34;Camera&#34;&gt;
+&lt;img src=&#34;https://nminaian.github.io/Website/media/ImageProcessing_Images/PIV.jpg&#34; alt=&#34;Camera&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;implementing-mathematica&#34;&gt;Implementing Mathematica&lt;/h2&gt;
 &lt;h3 id=&#34;velocity-tracking&#34;&gt;Velocity Tracking&lt;/h3&gt;
 &lt;p&gt;In this section, Mathematica was implemented to detect the velocity of a discrete binarized section of the sensor carriage mount. The found velocity can then be used in calculating the expected frequency of vortex shedding and can be used to verify the set velocity from the provided linear belt slide software. An assumption is made that the carriage, clamp, and IPMC sensor are traveling as a single body, and thus share the same velocity.  Prior to analysis, the captured experimental video was exported as a series of .png images through an external video editing software, which was then imported into Mathematica in the following cells. The images must be resized due to the large quantity. The spatial calibration factor was determined using the 1&amp;quot; grid background, which is highlighted in the first image shown.&lt;/p&gt;
@@ -72,7 +72,7 @@ ft total *)
 coords = {{215.`, 35.`}, {49.`, 34.`}};
 HighlightImage[sideimgs[[1]], {coords[[1]], coords[[2]]}]
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/ImageProcessing_Images/Velocity1.jpg&#34; alt=&#34;Velocity&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/media/ImageProcessing_Images/Velocity1.jpg&#34; alt=&#34;Velocity&#34;&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-Mathematica&#34;&gt;(* Finding Calibration Factor and Labeling Important Variables*)
 distperpixel = 304.8/EuclideanDistance[coords[[1]], coords[[2]]];
 fps = 30;
@@ -137,7 +137,7 @@ peakvelo = {-383.27456575836163`, -301.14430166728414`, \
 -410.65132045538746`, -355.8978110613358`};
 Mean[peakvelo]
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/ImageProcessing_Images/Velocity_Output.PNG&#34; alt=&#34;Velocity&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/media/ImageProcessing_Images/Velocity_Output.PNG&#34; alt=&#34;Velocity&#34;&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-Mathematica&#34;&gt;(* Animating Plot *)
 animvelo = Table[velo[[1 ;; i]], {i, 1, Length[velo]}];
 animpeakvel = Table[peakvel[[1 ;; i]], {i, 1, Length[peakvel]}];
@@ -197,7 +197,7 @@ ListAnimate[
 coords = {{273.`, 134.`}, {251.`, 18.`}};
 HighlightImage[topimgs[[1]], {coords[[1]], coords[[2]]}]
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/ImageProcessing_Images/Displacement.PNG&#34; alt=&#34;Displacement&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/media/ImageProcessing_Images/Displacement.PNG&#34; alt=&#34;Displacement&#34;&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-Mathematica&#34;&gt;(* Finding Calibration Factor and Labeling Important Variables*)
 distperpixel = 
   30/EuclideanDistance[coords[[1]], coords[[2]]]; (* mm/px *)
@@ -221,7 +221,7 @@ ListLinePlot[{Displacement[[All, 1, 1]], Displacement[[All, 2, 1]],
  PlotLabel -&amp;gt; &amp;quot;IPMC Displacement Tracking&amp;quot;, 
  AxesLabel -&amp;gt; {&amp;quot;Frame&amp;quot;, &amp;quot;Displacement (mm)&amp;quot;}]
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/ImageProcessing_Images/Displacement2.PNG&#34; alt=&#34;Displacement&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/media/ImageProcessing_Images/Displacement2.PNG&#34; alt=&#34;Displacement&#34;&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-Mathematica&#34;&gt;(* Comparing to Voltage Response *)
 s = Import[
    &amp;quot;C:\\Users\\Nazanin\\Desktop\\Image Processing Project\\11262019 \
@@ -242,7 +242,7 @@ DisplacementPlot =
 Grid[{{Show[VoltagePlot, ImageSize -&amp;gt; Medium], 
    Show[DisplacementPlot, ImageSize -&amp;gt; Medium]}}]
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/ImageProcessing_Images/Displacement3.PNG&#34; alt=&#34;Displacement&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/media/ImageProcessing_Images/Displacement3.PNG&#34; alt=&#34;Displacement&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;particle-tracking&#34;&gt;Particle Tracking&lt;/h3&gt;
 &lt;p&gt;In this section, pseudo-PIV images were obtained to show flow patterns over time at a fixed location. Experimental images were imported and resized for data management. A local adaptive binarize was used in order to identify particles. The experiment setup created limitations in isolating particles during binarization and thus environmental objects are seen in binarized images. This will in turn affect the accuracy of flow pattern analysis. Having particles that are dissimilar to the environment can potentially allow for better tracking and flow pattern analysis.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-Mathematica&#34;&gt;(* Setting Location and Grabbing Files *)
@@ -266,7 +266,7 @@ pivframes[[1]]
 pivimgs[[20]]
 Transpose[ImagePartition[#, 25] &amp;amp; /@ pivframes, {3, 1, 2}];
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/ImageProcessing_Images/Particle1.PNG&#34; alt=&#34;Particle&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/media/ImageProcessing_Images/Particle1.PNG&#34; alt=&#34;Particle&#34;&gt;&lt;/p&gt;
 &lt;p&gt;An example of partitioning a frame to determine displacements of each section of a single image. An image correlate was used to determine these displacement vectors. Once these displacement vectors were found an animation was made of the binarized images with an overlay of the displacement vectors.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-Mathematica&#34;&gt;(* Example: Partitioning to 25 Boxes *)
 GraphicsGrid[ImagePartition[pivframes[[1]], 25]] 
@@ -278,7 +278,7 @@ cross-correlations*)
 ComponentMeasurements[Binarize[#, 0.9], &amp;quot;Centroid&amp;quot;][[1, 2]] - {32, 
        32} &amp;amp; /@ # &amp;amp; /@ %; (*get displacements*)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/ImageProcessing_Images/Particle2.PNG&#34; alt=&#34;Particle&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/media/ImageProcessing_Images/Particle2.PNG&#34; alt=&#34;Particle&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Final code below for determining the flow field. This code was found in Lecture 23 of ME 695.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-Mathematica&#34;&gt;Module[{imgs = pivframes}, 
  Module[{divisions = 25, windowsize, windowcenters, disps, 
@@ -332,10 +332,10 @@ When flow is disrupted by an obstruction object or bluff body, vortices are shed
 &lt;p&gt;where, 𝑓 is the frequency of vortex shedding, L is the characteristic length or hydraulic diameter of the object, and U is the flow velocity.&lt;/p&gt;
 &lt;p&gt;This relationship can then be related to Reynolds number where under a large Reynolds number range, Strouhal number is approximately 0.20.&lt;/p&gt;
 &lt;p&gt;A sensor can thus detect the frequency of the shed vortices, which is directly proportional to the flow velocity.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/MEMS_Images/MEMS1.PNG&#34; alt=&#34;MEMS&#34;&gt;
-&lt;img src=&#34;https://nminaian.github.io/Website/static/media/MEMS_Images/MEMS2.PNG&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/media/MEMS_Images/MEMS1.png&#34; alt=&#34;MEMS&#34;&gt;
+&lt;img src=&#34;https://nminaian.github.io/Website/media/MEMS_Images/MEMS2.png&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
 &lt;p&gt;From Shanghai Yinuo Instrument Co. (Left) Cross section illustration of flow disruption in a pipe, generating vortices. (Right) Typical large vortex flow meter device.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/MEMS_Images/MEMS3.jpg&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/media/MEMS_Images/MEMS3.jpg&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Strouhal Number as a function of Reynolds Number. Image from Thermopedia&lt;/p&gt;
 &lt;h2 id=&#34;advantages-and-disadvantages&#34;&gt;Advantages and Disadvantages&lt;/h2&gt;
 &lt;h3 id=&#34;advantages&#34;&gt;Advantages&lt;/h3&gt;
@@ -361,12 +361,12 @@ When flow is disrupted by an obstruction object or bluff body, vortices are shed
 &lt;/ul&gt;
 &lt;h2 id=&#34;concept-and-prototype-design&#34;&gt;Concept and Prototype Design&lt;/h2&gt;
 &lt;h3 id=&#34;initial-version&#34;&gt;Initial Version&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/MEMS_Images/MEMS4.PNG&#34; alt=&#34;MEMS&#34;&gt;
-&lt;img src=&#34;https://nminaian.github.io/Website/static/media/MEMS_Images/MEMS5.PNG&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/media/MEMS_Images/MEMS4.png&#34; alt=&#34;MEMS&#34;&gt;
+&lt;img src=&#34;https://nminaian.github.io/Website/media/MEMS_Images/MEMS5.png&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;subsequent-and-final-version&#34;&gt;Subsequent and Final Version&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/MEMS_Images/MEMS6.PNG&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/media/MEMS_Images/MEMS6.png&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Failed and Completed Prints&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/MEMS_Images/MEMS7.PNG&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/media/MEMS_Images/MEMS7.png&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;physics-model---visualization-and-anticipation-of-vortex-shedding&#34;&gt;Physics Model - Visualization and Anticipation of Vortex Shedding&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;A physics-based model was developed in COMSOL Multiphysics.&lt;/li&gt;
@@ -376,7 +376,7 @@ When flow is disrupted by an obstruction object or bluff body, vortices are shed
 &lt;p&gt;Water at room temperature was set as the material and the normal inflow velocity was set to 0.07 m/s after an initialization step which was implemented to help the model run&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://latex.codecogs.com/svg.latex?%5Crho_w%20=%20997%20%5Bkg/m%5E3%5D&#34; alt=&#34;Equation&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://latex.codecogs.com/svg.latex?%5Cmu%20=%208.90%20%5Ctimes%2010%5E-4%20%5BPa-s%5D&#34; alt=&#34;Equation&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/MEMS_Images/Step.svg&#34; alt=&#34;Equation&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/media/MEMS_Images/Step.svg&#34; alt=&#34;Equation&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Using the Reynolds number equation, this puts us at a Reynolds number of about 235.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://i.gyazo.com/bf9f913d2066575e498155969682bd62.gif&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;experimental-setup&#34;&gt;Experimental Setup&lt;/h2&gt;
@@ -394,16 +394,16 @@ When flow is disrupted by an obstruction object or bluff body, vortices are shed
 &lt;ul&gt;
 &lt;li&gt;Which results in a Reynolds number of 252, and thus an expected vortex shedding frequency of 4.76&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/MEMS_Images/MEMS8.PNG&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/media/MEMS_Images/MEMS8.png&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/MEMS_Images/MEMS9.PNG&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/media/MEMS_Images/MEMS9.png&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;We can see the IPMC sensing the flow of the peristaltic pump in the following voltage reading plot.&lt;/li&gt;
 &lt;li&gt;An FFT was performed on 2 of the 3 runs.&lt;/li&gt;
 &lt;li&gt;Interestingly enough, we observe a noticeable frequency peak at around 4.7-5.0 Hz.&lt;/li&gt;
 &lt;li&gt;However, it is important to note, this coincidentally is also the peristaltic pump pulse frequency as well.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/static/media/MEMS_Images/MEMS10.PNG&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nminaian.github.io/Website/media/MEMS_Images/MEMS10.png&#34; alt=&#34;MEMS&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;conclusionfuture-work&#34;&gt;Conclusion/Future Work&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;More experiments will have to be performed to validate the concept of the this design.&lt;/li&gt;

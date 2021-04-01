@@ -44,9 +44,9 @@ Ionic polymer-metal composites (IPMCs) are a type of electroactive polymer typic
 
 IPMCs are unique electroactive polymers in that they exhibit both electromechanical (electrical to mechanical) and mechanoelectrical (mechanical to electrical) transduction, like that of piezoelectric materials, and are constructed from flexible polymers that can sustain large deformations and strains. The core structure of an IPMC is an ionomeric-polymer (ionomer), which consists of strong ionic groups attached to a charge-neutral polymer backbone. With this ionomer structure, the IPMC is formed by compositing an electrode material, typically a noble metal (such as platinum, gold, palladium, or silver), onto the surface of a thin ionomer membrane. This process forms the final material, a combined structure of an ionomer and metal electrodes, forming an ionic polymer-metal composite.
 
-[![IPMC](/media/ImageProcessing_Images/IPMC_Actuation.jpg)](https://en.wikipedia.org/wiki/Ionic_polymer-metal_composites)
+[![IPMC](https://nminaian.github.io/Website/media/ImageProcessing_Images/IPMC_Actuation.jpg)](https://en.wikipedia.org/wiki/Ionic_polymer-metal_composites)
 
-[![IPMC](/media/ImageProcessing_Images/IPMC_Actuation2.jpg)](https://www.researchgate.net/figure/The-IPMC-material-under-electric-\stimulation_fig4_224318764)
+[![IPMC](https://nminaian.github.io/Website/media/ImageProcessing_Images/IPMC_Actuation2.jpg)](https://www.researchgate.net/figure/The-IPMC-material-under-electric-\stimulation_fig4_224318764)
 
 The choice of backbone ionomer, electrode material, mobile ion species, solvent, and hydration level all have an immense impact on the behavior and performance of IPMC materials, demonstrating their highly complex nature.
 
@@ -64,37 +64,37 @@ One of the more prominent uses of IPMC sensors in underwater applications has be
 
 Experiments were conducted within an 85 gal aquarium with the IPMC sensor mounted to an inverted linear belt slide system (MacronDynamics MSA-M6S) driven by an stepper motor (Applied Motion Products SSM23IP-4EG). The motor software was programmed to run at 200 rps, traveling at 150 mm/rev (300 mm/s). Voltage readings were acquired directly using a Keithley 6510 DAQ.
 
-![IPMC](/static/media/ImageProcessing_Images/Setup.PNG)
+![IPMC](https://nminaian.github.io/Website/media/ImageProcessing_Images/Setup.PNG)
 
 #### Camera Configuration
 
-![IPMC](/static/media/ImageProcessing_Images/Config.jpg)
+![IPMC](https://nminaian.github.io/Website/media/ImageProcessing_Images/Config.jpg)
 Three cameras were used for three individual applications: velocity, tip deflection, and particle tracking.
 
 ##### Camera 1: Velocity (Canon EOS Rebel SL1)
 
-![Camera](/static/media/ImageProcessing_Images/Camera1.jpg)
+![Camera](https://nminaian.github.io/Website/media/ImageProcessing_Images/Camera1.jpg)
 
 Fixed directly facing the side wall of the aquarium, camera 1 will be capturing the travel of the sensor mount. The camera is fitted with the stock 18-55mm Canon lens. Video was captured at 1080p, 30 fps. The far-side of the aquarium is fitted with a 1 inch grid poster that will be used when determining the calibration factor of the footage. Various light-sources were set behind the background image in order to produce a backlit, silhouette-esq footage of the sensor mount traveling.
 
-![Camera](/static/media/ImageProcessing_Images/Camera1_Setup.PNG)
+![Camera](https://nminaian.github.io/Website/media/ImageProcessing_Images/Camera1_Setup.PNG)
 
 ##### Camera 2: Tip Deflection (OSMO Action)
 
-![Camera](/static/media/ImageProcessing_Images/Camera2.jpg)
+![Camera](https://nminaian.github.io/Website/media/ImageProcessing_Images/Camera2.jpg)
 
 Camera 2 was mounted directly to the carriage to travel alongside the sensor, directly observing sensor deformation from an above view. Camera 2 will be used to  relate the dynamic tip displacement of the IPMC to the acquired voltage response. Camera 2 captured high speed footage at 1080p, 240 fps, ideally to capture the nuance in the deformation.
 
-![Camera](/static/media/ImageProcessing_Images/Camera2_Setup.jpg)
+![Camera](https://nminaian.github.io/Website/media/ImageProcessing_Images/Camera2_Setup.jpg)
 
 ##### Camera 3: Particle Tracking (GoPro Hero4 Session)
 
-![Camera](/static/media/ImageProcessing_Images/Camera3.jpg)
+![Camera](https://nminaian.github.io/Website/media/ImageProcessing_Images/Camera3.jpg)
 
 Camera 3 was placed at a fixed location on the floor of the aquarium where it was used to capture the life cycle of the shed vortices from the carriage/bluff body. The camera was set to capture footage at 1080p, 30 fps. In addition, to better visualize the vortices, packing foam was shredding into pieces, ultimately functioning as tracking particles which assisted in image processing the flow trends on the surface of the water.
 
-![Camera](/static/media/ImageProcessing_Images/Camera3_Setup.PNG)
-![Camera](/static/media/ImageProcessing_Images/PIV.jpg)
+![Camera](https://nminaian.github.io/Website/media/ImageProcessing_Images/Camera3_Setup.PNG)
+![Camera](https://nminaian.github.io/Website/media/ImageProcessing_Images/PIV.jpg)
 
 ## Implementing Mathematica
 
@@ -120,7 +120,7 @@ coords = {{215.`, 35.`}, {49.`, 34.`}};
 HighlightImage[sideimgs[[1]], {coords[[1]], coords[[2]]}]
 ```
 
-![Velocity](/static/media/ImageProcessing_Images/Velocity1.jpg)
+![Velocity](https://nminaian.github.io/Website/media/ImageProcessing_Images/Velocity1.jpg)
 
 ``` Mathematica
 (* Finding Calibration Factor and Labeling Important Variables*)
@@ -194,7 +194,7 @@ peakvelo = {-383.27456575836163`, -301.14430166728414`, \
 Mean[peakvelo]
 ```
 
-![Velocity](/static/media/ImageProcessing_Images/Velocity_Output.PNG)
+![Velocity](https://nminaian.github.io/Website/media/ImageProcessing_Images/Velocity_Output.PNG)
 
 ``` Mathematica
 (* Animating Plot *)
@@ -271,7 +271,7 @@ coords = {{273.`, 134.`}, {251.`, 18.`}};
 HighlightImage[topimgs[[1]], {coords[[1]], coords[[2]]}]
 ```
 
-![Displacement](/static/media/ImageProcessing_Images/Displacement.PNG)
+![Displacement](https://nminaian.github.io/Website/media/ImageProcessing_Images/Displacement.PNG)
 
 ```Mathematica
 (* Finding Calibration Factor and Labeling Important Variables*)
@@ -301,7 +301,7 @@ ListLinePlot[{Displacement[[All, 1, 1]], Displacement[[All, 2, 1]],
  AxesLabel -> {"Frame", "Displacement (mm)"}]
 ```
 
-![Displacement](/static/media/ImageProcessing_Images/Displacement2.PNG)
+![Displacement](https://nminaian.github.io/Website/media/ImageProcessing_Images/Displacement2.PNG)
 
 ``` Mathematica
 (* Comparing to Voltage Response *)
@@ -325,7 +325,7 @@ Grid[{{Show[VoltagePlot, ImageSize -> Medium],
    Show[DisplacementPlot, ImageSize -> Medium]}}]
 ```
 
-![Displacement](/static/media/ImageProcessing_Images/Displacement3.PNG)
+![Displacement](https://nminaian.github.io/Website/media/ImageProcessing_Images/Displacement3.PNG)
 
 ### Particle Tracking
 
@@ -354,7 +354,7 @@ pivimgs[[20]]
 Transpose[ImagePartition[#, 25] & /@ pivframes, {3, 1, 2}];
 ```
 
-![Particle](/static/media/ImageProcessing_Images/Particle1.PNG)
+![Particle](https://nminaian.github.io/Website/media/ImageProcessing_Images/Particle1.PNG)
 
 An example of partitioning a frame to determine displacements of each section of a single image. An image correlate was used to determine these displacement vectors. Once these displacement vectors were found an animation was made of the binarized images with an overlay of the displacement vectors.
 
@@ -370,7 +370,7 @@ ComponentMeasurements[Binarize[#, 0.9], "Centroid"][[1, 2]] - {32,
        32} & /@ # & /@ %; (*get displacements*)
 ```
 
-![Particle](/static/media/ImageProcessing_Images/Particle2.PNG)
+![Particle](https://nminaian.github.io/Website/media/ImageProcessing_Images/Particle2.PNG)
 
 Final code below for determining the flow field. This code was found in Lecture 23 of ME 695.
 

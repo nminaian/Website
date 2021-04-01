@@ -52,12 +52,12 @@ This relationship can then be related to Reynolds number where under a large Rey
 
 A sensor can thus detect the frequency of the shed vortices, which is directly proportional to the flow velocity.
 
-![MEMS](/static/media/MEMS_Images/MEMS1.PNG)
-![MEMS](/static/media/MEMS_Images/MEMS2.PNG)
+![MEMS](https://nminaian.github.io/Website/media/MEMS_Images/MEMS1.png)
+![MEMS](https://nminaian.github.io/Website/media/MEMS_Images/MEMS2.png)
 
 From Shanghai Yinuo Instrument Co. (Left) Cross section illustration of flow disruption in a pipe, generating vortices. (Right) Typical large vortex flow meter device.  
 
-![MEMS](/static/media/MEMS_Images/MEMS3.jpg)
+![MEMS](https://nminaian.github.io/Website/media/MEMS_Images/MEMS3.jpg)
 
 Strouhal Number as a function of Reynolds Number. Image from Thermopedia
 
@@ -82,16 +82,16 @@ Strouhal Number as a function of Reynolds Number. Image from Thermopedia
 
 ### Initial Version
 
-![MEMS](/static/media/MEMS_Images/MEMS4.PNG)
-![MEMS](/static/media/MEMS_Images/MEMS5.PNG)
+![MEMS](https://nminaian.github.io/Website/media/MEMS_Images/MEMS4.png)
+![MEMS](https://nminaian.github.io/Website/media/MEMS_Images/MEMS5.png)
 
 ### Subsequent and Final Version
 
-![MEMS](/static/media/MEMS_Images/MEMS6.PNG)
+![MEMS](https://nminaian.github.io/Website/media/MEMS_Images/MEMS6.png)
 
 Failed and Completed Prints
 
-![MEMS](/static/media/MEMS_Images/MEMS7.PNG)
+![MEMS](https://nminaian.github.io/Website/media/MEMS_Images/MEMS7.png)
 
 ## Physics Model - Visualization and Anticipation of Vortex Shedding
 
@@ -106,7 +106,7 @@ Water at room temperature was set as the material and the normal inflow velocity
 
 ![Equation](https://latex.codecogs.com/svg.latex?\mu%20=%208.90%20\times%2010^-4%20[Pa-s])
 
-![Equation](/static/media/MEMS_Images/Step.svg)
+![Equation](https://nminaian.github.io/Website/media/MEMS_Images/Step.svg)
 
 Using the Reynolds number equation, this puts us at a Reynolds number of about 235.
 
@@ -126,18 +126,18 @@ Using the Reynolds number equation, this puts us at a Reynolds number of about 2
 
 - Which results in a Reynolds number of 252, and thus an expected vortex shedding frequency of 4.76
 
-![MEMS](/static/media/MEMS_Images/MEMS8.PNG)
+![MEMS](https://nminaian.github.io/Website/media/MEMS_Images/MEMS8.png)
 
 ## Results
 
-![MEMS](/static/media/MEMS_Images/MEMS9.PNG)
+![MEMS](https://nminaian.github.io/Website/media/MEMS_Images/MEMS9.png)
 
 - We can see the IPMC sensing the flow of the peristaltic pump in the following voltage reading plot.
 - An FFT was performed on 2 of the 3 runs.
 - Interestingly enough, we observe a noticeable frequency peak at around 4.7-5.0 Hz.
 - However, it is important to note, this coincidentally is also the peristaltic pump pulse frequency as well.
 
-![MEMS](/static/media/MEMS_Images/MEMS10.PNG)
+![MEMS](https://nminaian.github.io/Website/media/MEMS_Images/MEMS10.png)
 
 ## Conclusion/Future Work
 
