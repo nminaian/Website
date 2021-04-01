@@ -44,9 +44,9 @@ Ionic polymer-metal composites (IPMCs) are a type of electroactive polymer typic
 
 IPMCs are unique electroactive polymers in that they exhibit both electromechanical (electrical to mechanical) and mechanoelectrical (mechanical to electrical) transduction, like that of piezoelectric materials, and are constructed from flexible polymers that can sustain large deformations and strains. The core structure of an IPMC is an ionomeric-polymer (ionomer), which consists of strong ionic groups attached to a charge-neutral polymer backbone. With this ionomer structure, the IPMC is formed by compositing an electrode material, typically a noble metal (such as platinum, gold, palladium, or silver), onto the surface of a thin ionomer membrane. This process forms the final material, a combined structure of an ionomer and metal electrodes, forming an ionic polymer-metal composite.
 
-[![IPMC](/static/media/ImageProcessing_Images/IPMC_Actuation.jpg)](https://en.wikipedia.org/wiki/Ionic_polymer-metal_composites)
+[![IPMC](/media/ImageProcessing_Images/IPMC_Actuation.jpg)](https://en.wikipedia.org/wiki/Ionic_polymer-metal_composites)
 
-[![IPMC](/static/media/ImageProcessing_Images/IPMC_Actuation2.jpg)](https://www.researchgate.net/figure/The-IPMC-material-under-electric-\stimulation_fig4_224318764)
+[![IPMC](/media/ImageProcessing_Images/IPMC_Actuation2.jpg)](https://www.researchgate.net/figure/The-IPMC-material-under-electric-\stimulation_fig4_224318764)
 
 The choice of backbone ionomer, electrode material, mobile ion species, solvent, and hydration level all have an immense impact on the behavior and performance of IPMC materials, demonstrating their highly complex nature.
 
