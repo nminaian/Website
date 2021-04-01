@@ -1,9 +1,10 @@
 ---
 title: Laminar Flow Faucet-less Smart Sink
-summary: Concepted, designed, and fabricated a novel faucet-less sink with multiple radially placed laminar nozzles within the sink basin to provide unobstructed hand and face washing capabilities. Focused on CAD modeling, fluid dynamic analysis, material selection, fabrication, marketing, and dissemination of results. Awarded 1st Place Interdisciplinary Engineering Design Award
+summary: Concepted, designed, and fabricated a novel faucet-less sink with multiple radially placed laminar nozzles within the sink basin to provide unobstructed hand and face washing capabilities. Focused on CAD modeling, fluid dynamic analysis, material selection, fabrication, marketing, and dissemination of results. *Awarded 1st Place Interdisciplinary Engineering Design Award Spring 2018*
 
 tags:
 - Design
+- CAD
 date: "2018-11-25T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
@@ -30,5 +31,6 @@ image:
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+## Work in Progress
 
-Work in Progress
+![Sink]('https://nminaian.github.io/Website/media/Sink_Images/Lifsink_Poster.png')

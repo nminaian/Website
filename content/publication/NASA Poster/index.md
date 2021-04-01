@@ -28,6 +28,8 @@ summary: In this study, we aim to use several imaging and image processing techn
 
 tags:
 - IPMC
+- Image Processing
+- NASA
 featured: true
 
 #links:
@@ -36,11 +38,11 @@ featured: true
 # url_pdf: 
 # url_code: '#'
 # url_dataset: '#'
-# url_poster: '#'
+url_poster: 'https://nasa.epscorspo.nevada.edu/index.php?gf-download=2020%2F05%2FNVSG_EPSCOR_VirtualPoster2020_Minaian.pdf&form-id=81&field-id=14&hash=8a058e86fc4f47aa545414c0ea99a1627de981296a48cccf5ec0b884f35a8edd'
 # url_project: '#'
 # url_slides: '#'
-url_source: '#'
-# url_video: '#'
+# url_source: '#'
+url_video: 'https://nasa.epscorspo.nevada.edu/index.php?gf-download=2020%2F05%2FNVSG_EPSCOR_Video_Minaian.mp4&form-id=81&field-id=11&hash=573e119ce7599c20511ba6028f9a9f12108399fe70eead241b76f50cfe7f8f92'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

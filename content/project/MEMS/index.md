@@ -1,6 +1,6 @@
 ---
-title: MEMS-based Flowmeter using an Ionic Polymer-Metal Composite Sensor
-summary: Designed a small-scale vortex flowmeter with an interior diameter of 10 mm and implemented a 5 mm rectangular IPMC sensor to detect the frequency of vortices shedding from a bluff body. SLA printed and wired fully functional prototype. Performed COMSOL fluidstructure analysis to verify acquired experimental data. 
+title: MEMS-based flow meter using an Ionic Polymer-Metal Composite Sensor
+summary: Designed a small-scale vortex flow meter with an interior diameter of 10 mm and implemented a 5 mm rectangular IPMC sensor to detect the frequency of vortices shedding from a bluff body. SLA printed and wired fully functional prototype. Performed COMSOL fluidstructure analysis to verify acquired experimental data. 
 tags:
 - IPMC
 - Sensing

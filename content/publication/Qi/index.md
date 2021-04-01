@@ -27,7 +27,13 @@ abstract: The multiple-shape-memory ionic polymer–metal composite (MSM-IPMC) a
 # summary: xxx
 
 tags:
-- IPMC Electroactive-Polymer Soft-Robotics Biomimicry Shape-Memory Nafion Actuation
+- IPMC
+- Electroactive-Polymer
+- Soft-Robotics
+- Biomimicry
+- Shape-Memory
+- Nafion
+- Actuation
 featured: true
 
 #links:

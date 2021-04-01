@@ -4,6 +4,7 @@ summary: Within MATLAB, developed a diffusion flux model using solid oxide fuel 
 
 tags:
 - Fuel Cells
+- SOFC
 date: "2020-11-25T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
@@ -31,4 +32,4 @@ image:
 slides: "ME 615 - Project"
 ---
 
-Work in Progress!
+## Work in Progress

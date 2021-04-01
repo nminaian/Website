@@ -26,7 +26,14 @@ abstract: In the field of soft robotics, ionic polymer-metal composites (IPMCs) 
 summary: Book chapter discusing the current advances and implementation of the IPMC-based artificial muscles. This includes an overview of the material and fabrication techniques, examples of bioinspired actuator and sensor designs, utilization of shape memory properties and segmented electrodes for more complex actuation, as well as the application and performance of fabricated devices in underwater environments.
 
 tags:
-- IPMC Electroactive-Polymer Soft-Robotics Biomimicry Shape-Memory Nafion Underwater-Propulsion Robotics 
+- IPMC
+- Electroactive-Polymer
+- Soft-Robotics
+- Biomimicry
+- Shape-Memory
+- Nafion
+- Underwater-Propulsion
+- Robotics 
 featured: true
 
 #links:
@@ -38,7 +45,7 @@ featured: true
 # url_poster: '#'
 # url_project: '#'
 # url_slides: '#'
-url_source: '#'
+url_source: 'https://link.springer.com/chapter/10.1007%2F978-3-030-50476-2_6'
 # url_video: '#'
 
 # Featured image

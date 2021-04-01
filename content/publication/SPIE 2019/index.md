@@ -26,7 +26,10 @@ abstract: Ionic polymer-metal composites (IPMCs) have been studied extensively i
 # summary: Book chapter discusing the current advances and implementation of the IPMC-based artificial muscles. This includes an overview of the material and fabrication techniques, examples of bioinspired actuator and sensor designs, utilization of shape memory properties and segmented electrodes for more complex actuation, as well as the application and performance of fabricated devices in underwater environments.
 
 tags:
-- IPMC Electroactive-Polymer Soft-Robotics Sensing 
+- IPMC
+- Electroactive-Polymer
+- Soft-Robotics
+- Sensing 
 featured: true
 
 #links:
@@ -35,7 +38,7 @@ featured: true
 # url_pdf: 
 # url_code: '#'
 # url_dataset: '#'
-url_poster: '#'
+url_poster: 'https://nminaian.github.io/Website/media/SPIE_Images/minaian_spie_2019.png'
 # url_project: '#'
 # url_slides: '#'
 # url_source: '#'

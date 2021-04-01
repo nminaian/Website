@@ -25,7 +25,11 @@ abstract: The soft electroactive polymer material, ionic polymer-metal composite
 # summary: Book chapter discusing the current advances and implementation of the IPMC-based artificial muscles. This includes an overview of the material and fabrication techniques, examples of bioinspired actuator and sensor designs, utilization of shape memory properties and segmented electrodes for more complex actuation, as well as the application and performance of fabricated devices in underwater environments.
 
 tags:
-- IPMC Electroactive-Polymer Soft-Robotics Biomimicry Sensing 
+- IPMC
+- Electroactive-Polymer
+- Soft-Robotics
+- Biomimicry
+- Sensing 
 featured: true
 
 #links:
