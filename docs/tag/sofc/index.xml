@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SOFC | Nazanin Minaian</title>
+    <link>https://nminaian.github.io/Website/tag/sofc/</link>
+      <atom:link href="https://nminaian.github.io/Website/tag/sofc/index.xml" rel="self" type="application/rss+xml" />
+    <description>SOFC</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 25 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://nminaian.github.io/Website/images/icon_hu835ad7ad16c4928b4b63a348fd887239_17370_512x512_fill_lanczos_center_2.png</url>
+      <title>SOFC</title>
+      <link>https://nminaian.github.io/Website/tag/sofc/</link>
+    </image>
+    
+    <item>
+      <title>Design of Fuel Cell Powered UNLV Engineering Building</title>
+      <link>https://nminaian.github.io/Website/project/sofc/</link>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://nminaian.github.io/Website/project/sofc/</guid>
+      <description>&lt;h2 id=&#34;work-in-progress&#34;&gt;Work in Progress&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

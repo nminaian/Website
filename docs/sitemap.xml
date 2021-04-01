@@ -13,12 +13,22 @@
   </url>
   
   <url>
+    <loc>https://nminaian.github.io/Website/tag/biomimicry/</loc>
+    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nminaian.github.io/Website/publication/spie-2021/</loc>
     <lastmod>2021-03-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nminaian.github.io/Website/tag/ipmc-electroactive-polymer-soft-robotics-biomimicry-sensing/</loc>
+    <loc>https://nminaian.github.io/Website/tag/electroactive-polymer/</loc>
+    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nminaian.github.io/Website/tag/ipmc/</loc>
     <lastmod>2021-03-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -44,6 +54,16 @@
   
   <url>
     <loc>https://nminaian.github.io/Website/publication/</loc>
+    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nminaian.github.io/Website/tag/sensing/</loc>
+    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nminaian.github.io/Website/tag/soft-robotics/</loc>
     <lastmod>2021-03-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -83,11 +103,6 @@
   </url>
   
   <url>
-    <loc>https://nminaian.github.io/Website/tag/ipmc/</loc>
-    <lastmod>2020-11-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://nminaian.github.io/Website/project/mems/</loc>
     <lastmod>2020-11-25T00:00:00+00:00</lastmod>
   </url>
@@ -103,7 +118,7 @@
   </url>
   
   <url>
-    <loc>https://nminaian.github.io/Website/tag/sensing/</loc>
+    <loc>https://nminaian.github.io/Website/tag/sofc/</loc>
     <lastmod>2020-11-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -123,12 +138,17 @@
   </url>
   
   <url>
-    <loc>https://nminaian.github.io/Website/publication/springer/</loc>
+    <loc>https://nminaian.github.io/Website/tag/energy-harvesting/</loc>
     <lastmod>2020-11-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nminaian.github.io/Website/tag/ipmc-electroactive-polymer-soft-robotics-biomimicry-shape-memory-nafion-underwater-propulsion-robotics/</loc>
+    <loc>https://nminaian.github.io/Website/tag/image-processing/</loc>
+    <lastmod>2020-11-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nminaian.github.io/Website/publication/springer/</loc>
     <lastmod>2020-11-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -138,7 +158,42 @@
   </url>
   
   <url>
+    <loc>https://nminaian.github.io/Website/tag/nafion/</loc>
+    <lastmod>2020-11-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nminaian.github.io/Website/tag/nasa/</loc>
+    <lastmod>2020-11-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nminaian.github.io/Website/tag/pvdf/</loc>
+    <lastmod>2020-11-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nminaian.github.io/Website/tag/robotics/</loc>
+    <lastmod>2020-11-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nminaian.github.io/Website/tag/shape-memory/</loc>
+    <lastmod>2020-11-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nminaian.github.io/Website/publication/pvdf/</loc>
+    <lastmod>2020-11-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nminaian.github.io/Website/tag/underwater-propulsion/</loc>
+    <lastmod>2020-11-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nminaian.github.io/Website/tag/wearable-devices/</loc>
     <lastmod>2020-11-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -159,11 +214,6 @@
   
   <url>
     <loc>https://nminaian.github.io/Website/publication/spie-2019/</loc>
-    <lastmod>2019-03-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nminaian.github.io/Website/tag/ipmc-electroactive-polymer-soft-robotics-sensing/</loc>
     <lastmod>2019-03-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -193,7 +243,7 @@
   </url>
   
   <url>
-    <loc>https://nminaian.github.io/Website/tag/ipmc-electroactive-polymer-soft-robotics-biomimicry-shape-memory-nafion-actuation/</loc>
+    <loc>https://nminaian.github.io/Website/tag/actuation/</loc>
     <lastmod>2018-08-02T00:00:00+00:00</lastmod>
   </url>
   

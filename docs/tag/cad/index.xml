@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>MEMS-based Flowmeter using an Ionic Polymer-Metal Composite Sensor</title>
+      <title>MEMS-based flow meter using an Ionic Polymer-Metal Composite Sensor</title>
       <link>https://nminaian.github.io/Website/project/mems/</link>
       <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://nminaian.github.io/Website/project/mems/</guid>
@@ -118,6 +118,16 @@ When flow is disrupted by an obstruction object or bluff body, vortices are shed
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Laminar Flow Faucet-less Smart Sink</title>
+      <link>https://nminaian.github.io/Website/project/sink/</link>
+      <pubDate>Sun, 25 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://nminaian.github.io/Website/project/sink/</guid>
+      <description>&lt;h2 id=&#34;work-in-progress&#34;&gt;Work in Progress&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;&#39;https://nminaian.github.io/Website/media/Sink_Images/Lifsink_Poster.png&#39;&#34; alt=&#34;Sink&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     

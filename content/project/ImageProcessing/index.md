@@ -56,7 +56,7 @@ Regarding IPMCs as a sensor, induced deformation is believed to cause a redistri
 
 One of the more prominent uses of IPMC sensors in underwater applications has been in the development of IPMC-based flow sensor devices. There have been two approaches in this endeavor, one of which involves interpreting the characteristic response directly, and the other requiring additional signal processing within the frequency domain.  The former is dependent relating the acquired voltage response directly to the environmental causes of displacement surrounding the IPMC. The figure below is a still-frame of an oscillating IPMC due to a shaker at 10 Hz.
 
-![IPMC](/static/media/ImageProcessing_Images/IPMC_Sensing.PNG)
+![IPMC](https://nminaian.github.io/Website/media/ImageProcessing_Images/IPMC_Sensing.PNG)
 
 ## Experimental Setup
 

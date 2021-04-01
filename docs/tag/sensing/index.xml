@@ -5,7 +5,7 @@
     <link>https://nminaian.github.io/Website/tag/sensing/</link>
       <atom:link href="https://nminaian.github.io/Website/tag/sensing/index.xml" rel="self" type="application/rss+xml" />
     <description>Sensing</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 25 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 22 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nminaian.github.io/Website/images/icon_hu835ad7ad16c4928b4b63a348fd887239_17370_512x512_fill_lanczos_center_2.png</url>
       <title>Sensing</title>
@@ -13,7 +13,15 @@
     </image>
     
     <item>
-      <title>MEMS-based Flowmeter using an Ionic Polymer-Metal Composite Sensor</title>
+      <title>Continuing the Investigation of the Sensing Response of Ionic Polymer-Metal Composites: Effects of Geometry and Orientation</title>
+      <link>https://nminaian.github.io/Website/publication/spie-2021/</link>
+      <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://nminaian.github.io/Website/publication/spie-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MEMS-based flow meter using an Ionic Polymer-Metal Composite Sensor</title>
       <link>https://nminaian.github.io/Website/project/mems/</link>
       <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://nminaian.github.io/Website/project/mems/</guid>
@@ -119,6 +127,14 @@ When flow is disrupted by an obstruction object or bluff body, vortices are shed
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>A feasibility study in the use of ionic polymer-metal composites in rectangular cantilever form as flow sensor devices</title>
+      <link>https://nminaian.github.io/Website/publication/spie-2019/</link>
+      <pubDate>Thu, 07 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://nminaian.github.io/Website/publication/spie-2019/</guid>
+      <description></description>
     </item>
     
   </channel>
