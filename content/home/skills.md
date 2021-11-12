@@ -18,13 +18,13 @@ subtitle = ""
   icon = "python"
   icon_pack = "fab"
   name = "Coding"
-  description = "Python, MATLAB, Wolfram Mathematica"
+  description = "Python, VSCode, MATLAB, Wolfram Mathematica, Quorum Studio"
   
 [[feature]]
   icon = "cubes"
   icon_pack = "fas"
   name = "Modeling"
-  description = "SolidWorks, COMSOL Multiphysics, solidThinking Inspire"  
+  description = "SolidWorks, COMSOL Multiphysics, solidThinking Inspire" 
   
 [[feature]]
   icon = "vial"
@@ -36,19 +36,19 @@ subtitle = ""
   icon = "camera"
   icon_pack = "fas"
   name = "Imaging"
-  description = "DSLR, PIV, Motion Tracking"
+  description = "DSLR, PIV (Planar and Volume), Motion Tracking"
 
 [[feature]]
   icon = "book"
   icon_pack = "fas"
   name = "Technical Writing"
-  description = "Project Reports, Proposals, Posters, Presentations, Publications"
+  description = "Project Reports, SOPs, Proposals, Posters, Presentations, Publications"
 
 [[feature]]
   icon = "window-restore"
   icon_pack = "fas"
   name = "Software"
-  description = "LabVIEW, Adobe Suite"
+  description = "LabVIEW, Adobe Suite, Office Suite"
 
 # Uncomment to use emoji icons.
 # [[feature]]

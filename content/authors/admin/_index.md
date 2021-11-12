@@ -22,6 +22,7 @@ interests:
 - Electroactive Polymers
 - Imaging and Image Processing
 - Bio-Inspired Robotic Designs
+- Fluid Mechanics
 
 education:
   courses:
@@ -71,4 +72,4 @@ user_groups:
 - Visitors
 ---
 
-Nazanin Minaian is a graduate research assistant at the Active Materials and Smart Living lab based in UNLV. Under the supervision of Professor Kwang J. Kim, Nazanin has been studying the electroactive polymer material known as Ionic Polymer-Metal Composites and other active material-related research. Additionally, Nazanin has twice worked at the Korean Institute of Science and Technology (KIST) as a visiting research assistant, collaborating with international researchers in the field of soft robotics. She expects to move towards doctoral candidacy in Fall 2021 and will receive her Ph.D. in Fall 2022.
+Nazanin Minaian is a graduate research assistant at the Active Materials and Smart Living lab based in UNLV. Under the supervision of Professor Kwang J. Kim, Nazanin has been studying the electroactive polymer material known as Ionic Polymer-Metal Composites and other active material-related research. Additionally, Nazanin has twice worked at the Korean Institute of Science and Technology (KIST) as a visiting research assistant, collaborating with international researchers in the field of soft robotics. She expects to move towards doctoral candidacy in Spring 2022 and her Ph.D. in Spring 2023.

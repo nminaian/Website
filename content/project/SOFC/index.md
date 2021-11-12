@@ -32,4 +32,4 @@ image:
 slides: "ME 615 - Project"
 ---
 
-## Work in Progress
+## Description coming soon

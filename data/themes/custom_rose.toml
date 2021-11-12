@@ -1,18 +1,26 @@
 # Theme metadata
-name = "custom_rose"
+name = "Main_Babe"
 
 # Is theme light or dark?
-light = false
+light = true
 
 # Primary
-primary = "rgb(251, 191, 183)"
+primary = "#EF476F"
 
 # Menu
-menu_primary = "rgb(36, 36, 46)"
-menu_text = "#FFF"
-menu_text_active = "rgb(25, 25, 25)"
-menu_title = "#FFF"
+menu_primary = "#F7F7F7"
+menu_text = "#FCA311"
+menu_text_active = "#0EAD69"
+menu_title = "#118AB2"
 
-# Home sections
-home_section_odd = "#FFF"
-home_section_even = "rgb(234, 242, 250)"
+# Backgrounds
+background = "#F7F7F7"
+home_section_odd = "#F7F7F7"
+home_section_even = "#F7F7F7"
+
+dark_background = "#F7F7F7"
+dark_home_section_odd = "#F7F7F7"
+dark_home_section_even = "#F7F7F7"
+
+link = "#D90429"
+link_hover = "#118AB2"

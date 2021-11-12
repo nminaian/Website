@@ -34,6 +34,7 @@ date_format = "Jan 2006"
   - [x] Developed physics-based models using COMSOL software for fluid-structure interaction studies, and vortex shedding for a MEMS vortex flowmeter.
   - [x] Design of experiments and data acquisition for various EAP actuators and sensors.
   - [x] Utilized various imaging and image processing techniques; including the development of a computer vision-based software in Wolfram Mathematica for tracking sensor deflection, travel velocity, and vortex shedding. 
+  - [x] Lead on Particle Imaging Velocimetry (PIV) equipment attainment and setup. Wrote Standard Operating Procedure and implemented safety protocols for use. 
   """
 
 [[experience]]

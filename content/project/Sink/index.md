@@ -31,6 +31,6 @@ image:
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-## Work in Progress
+## Description coming soon
 
-![Sink]('https://nminaian.github.io/Website/media/Sink_Images/Lifsink_Poster.png')
+[![Sink](https://nminaian.github.io/Website/media/Sink_Images/Lifsink_Poster.png)](https://nminaian.github.io/Website/media/Sink_Images/Lifsink_Poster.png)
