@@ -1,6 +1,6 @@
 (function () {
   function getThemeMode() {
-    return parseInt(localStorage.getItem('dark_mode') || 1);
+    return parseInt(localStorage.getItem('dark_mode') || 2);
   }
 
   function canChangeTheme() {
